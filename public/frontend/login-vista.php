@@ -17,11 +17,12 @@
         <div class="header">
             <div class="logo-title">
                 <img src="image/logo_magtimus.png" alt="">
-                <h2></h2>
+                <h2>USUARIO</h2>
             </div>
             <div class="menu">
                 <a href="login.php"><li class="module-login active">Login</li></a>
                 <a href="register.php"><li class="module-register">Register</li></a>
+               
             </div>
         </div>
         
@@ -43,6 +44,7 @@
             <?php endif; ?>
             
             <button type="submit">Entrar<label class="lnr lnr-chevron-right"></label></button>
+            <button type="submit">ADMINISTRADOR</button>
         </form>
     </div>
     

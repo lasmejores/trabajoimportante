@@ -17,7 +17,7 @@
         <div class="header">
             <div class="logo-title">
                 <img src="image/logo_magtimus.png" alt="">
-                <h2></h2>
+                <h2>USUARIO</h2>
             </div>
             <div class="menu">
                 <a href="login.php"><li class="module-login">Login</li></a>
