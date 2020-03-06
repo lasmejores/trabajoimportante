@@ -17,11 +17,11 @@
         <div class="header">
             <div class="logo-title">
                 <img src="" alt="">
-                <h2>USUARIO</h2>
+                <h2>ADMINISTRADOR</h2>
             </div>
             <div class="menu">
-                <a href="login.php"><li class="module-login active">Login</li></a>
-                <a href="register.php"><li class="module-register">Register</li></a>
+                <a href="adminlogin.php"><li class="module-login active">Login</li></a>
+                <a href="adminregister.php"><li class="module-register">Register</li></a>
                
             </div>
         </div>
@@ -44,9 +44,6 @@
             <?php endif; ?>
             
             <button type="submit">Entrar<label class="lnr lnr-chevron-right"></label></button>
-            <button>
-            <a href="./frontend/adminlogin-vista.php">ADMINISTRADOR</a>
-            </button>
             
         </form>
     </div>

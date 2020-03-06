@@ -16,7 +16,7 @@
 <div class="container-form">
         <div class="header">
             <div class="logo-title">
-                <img src="image/logo_magtimus.png" alt="">
+                <img src="" alt="">
                 <h2>USUARIO</h2>
             </div>
             <div class="menu">
