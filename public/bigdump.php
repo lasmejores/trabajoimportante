@@ -2,42 +2,6 @@
 
 error_reporting(E_ALL);
 
-// BigDump ver. 0.36b from 2015-04-30
-// Staggered import of an large MySQL Dump (like phpMyAdmin 2.x Dump)
-// Even through the webservers with hard runtime limit and those in safe mode
-// Works fine with latest Chrome, Internet Explorer and Firefox
-
-// Author:       Alexey Ozerov (alexey at ozerov dot de) 
-//               AJAX & CSV functionalities: Krzysiek Herod (kr81uni at wp dot pl) 
-// Copyright:    GPL (C) 2003-2015
-// More Infos:   http://www.ozerov.de/bigdump
-
-// This program is free software; you can redistribute it and/or modify it under the
-// terms of the GNU General Public License as published by the Free Software Foundation;
-// either version 2 of the License, or (at your option) any later version.
-
-// THIS SCRIPT IS PROVIDED AS IS, WITHOUT ANY WARRANTY OR GUARANTEE OF ANY KIND
-
-// USAGE
-
-// 1. Adjust the database configuration and charset in this file
-// 2. Remove the old tables on the target database if your dump doesn't contain "DROP TABLE"
-// 3. Create the working directory (e.g. dump) on your web server
-// 4. Upload bigdump.php and your dump files (.sql, .gz) via FTP to the working directory
-// 5. Run the bigdump.php from your browser via URL like http://www.yourdomain.com/dump/bigdump.php
-// 6. BigDump can start the next import session automatically if you enable the JavaScript
-// 7. Wait for the script to finish, do not close the browser window
-// 8. IMPORTANT: Remove bigdump.php and your dump files from the web server
-
-// If Timeout errors still occure you may need to adjust the $linepersession setting in this file
-
-// LAST CHANGES
-
-// *** Fix a typo in HTML code
-// *** Change from mySQL to mySQLi
-
-// Database configuration
-
 $db_server   = 'localhost';
 $db_name     = '1';
 $db_username = 'root';
@@ -150,7 +114,7 @@ do_action('header');
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>BigDump ver. <?php echo (VERSION); ?></title>
+
 <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1"/>
 <meta http-equiv="CONTENT-LANGUAGE" content="EN"/>
 
@@ -164,7 +128,7 @@ do_action('header');
 <?php do_action('head_meta'); ?>
 
 <style type="text/css">
-<!--
+
 
 body
 { background-color:#FFFFF0;
@@ -276,7 +240,7 @@ td.bgpctbar
 
 <?php do_action('head_style'); ?>
 
--->
+
 </style>
 
 </head>
@@ -286,9 +250,11 @@ td.bgpctbar
 <center>
 
 <table width="780" cellspacing="0" cellpadding="0">
+
+
 <tr><td class="transparent">
 <a href="principal-vista.php">atras</a>
- <h1>BigDump: Staggered MySQL Dump Importer ver. <?php echo (VERSION); ?></h1> 
+<h1>BigDump: Staggered MySQL Dump Importer ver. <?php echo (VERSION); ?></h1> 
 
 <?php
 
@@ -940,7 +906,10 @@ else if ($file && $gzipmode) gzclose($file);
 
 <p class="centr">&copy; 2003-2015 <a href="mailto:alexey@ozerov.de">Alexey Ozerov</a></p>
 
-</td></tr></table>
+</td>dgfdgdgdgdggdgd</tr>
+
+
+</table>
 
 </center>
 <?php do_action('end_of_body'); ?>
